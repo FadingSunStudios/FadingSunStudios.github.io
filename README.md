@@ -1,2 +1,2 @@
-# FadingSunStudios.github.io
-Website
+# FadingSunStudios
+Greetings! fellow travelers :C
