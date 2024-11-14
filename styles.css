@@ -1,11 +1,12 @@
 * {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
     line-height: 1.6;
     color: lab(35% 0.2 -0.2); /* Dark purplish gray text */
     background-color: lab(97% 0.1 -0.1); /* Very light lavender */
