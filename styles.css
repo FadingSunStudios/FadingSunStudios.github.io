@@ -7,12 +7,13 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: lab(29.2345% 0.1 0.1); /* Darker gray text */
+    background-color: lab(98% 0 0); /* Very light background */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: lab(20% -0.5 0); /* Darker color for contrast */
+    color: lab(98% 0 0); /* White text for readability */
     padding: 20px;
     text-align: center;
 }
@@ -23,11 +24,11 @@ section {
 }
 
 h2 {
-    color: #333;
+    color: lab(29.2345% 0.1 0.1); /* Same gray as body text for consistency */
 }
 
 a {
-    color: #0066cc;
+    color: lab(60% -0.1 0.5); /* Softer blue for links */
     text-decoration: none;
 }
 
@@ -38,8 +39,8 @@ a:hover {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
-    color: #fff;
+    background-color: lab(20% -0.5 0); /* Same dark color as header */
+    color: lab(98% 0 0); /* White text for readability */
     position: fixed;
     bottom: 0;
     width: 100%;
