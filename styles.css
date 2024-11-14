@@ -7,13 +7,13 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: lab(29.2345% 0.1 0.1); /* Darker gray text */
-    background-color: lab(98% 0 0); /* Very light background */
+    color: lab(35% 0.2 -0.2); /* Dark purplish gray text */
+    background-color: lab(97% 0.1 -0.1); /* Very light lavender */
 }
 
 header {
-    background-color: lab(20% -0.5 0); /* Darker color for contrast */
-    color: lab(98% 0 0); /* White text for readability */
+    background-color: lab(20% 0.4 -0.2); /* Darker purple for strong contrast */
+    color: lab(95% 0.1 -0.1); /* Off-white for readability */
     padding: 20px;
     text-align: center;
 }
@@ -24,11 +24,11 @@ section {
 }
 
 h2 {
-    color: lab(29.2345% 0.1 0.1); /* Same gray as body text for consistency */
+    color: lab(35% 0.2 -0.2); /* Same purplish gray as body text */
 }
 
 a {
-    color: lab(60% -0.1 0.5); /* Softer blue for links */
+    color: lab(60% 0.3 -0.4); /* Medium purple for links */
     text-decoration: none;
 }
 
@@ -39,8 +39,8 @@ a:hover {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: lab(20% -0.5 0); /* Same dark color as header */
-    color: lab(98% 0 0); /* White text for readability */
+    background-color: lab(20% 0.4 -0.2); /* Same dark purple as header */
+    color: lab(95% 0.1 -0.1); /* Off-white text */
     position: fixed;
     bottom: 0;
     width: 100%;
