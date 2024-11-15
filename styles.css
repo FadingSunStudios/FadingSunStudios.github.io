@@ -1,3 +1,9 @@
+/* Night #000f08 */
+/* Gunmetal #1c3738 */
+/* Davy'sGray #4d4847 */
+/* Mint Cream #f4fff8 */
+/* Cadet Gray #f4fff8 */
+/* #c97b84  #a85751  #7D2E68 #251351 #040926 */
 * {
     font-family: "Baloo Bhaijaan 2", sans-serif;
     margin: 0;
@@ -8,13 +14,13 @@
 body {
     font-family: "Baloo Bhaijaan 2", sans-serif;
     line-height: 1.6;
-    color: lab(35% 0.2 -0.2); /* Dark purplish gray text */
-    background-color: lab(97% 0.1 -0.1); /* Very light lavender */
+    color: #f4fff8; /* Dark purplish gray text */
+    background-color: #251351;
 }
 
 header {
-    background-color: lab(20% 0.4 -0.2); /* Darker purple for strong contrast */
-    color: lab(95% 0.1 -0.1); /* Off-white for readability */
+    background-color: #040926;
+    color: #a85751;
     padding: 20px;
     text-align: center;
 }
@@ -29,19 +35,20 @@ h2 {
 }
 
 a {
-    color: lab(60% 0.3 -0.4); /* Medium purple for links */
+    color: #7d2e68; /* Medium purple for links */
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #f4fff8;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: lab(20% 0.4 -0.2); /* Same dark purple as header */
-    color: lab(95% 0.1 -0.1); /* Off-white text */
+    background-color: #040926;
+    color: #a85751;
     position: fixed;
     bottom: 0;
     width: 100%;
