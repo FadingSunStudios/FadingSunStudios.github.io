@@ -1,55 +1,29 @@
-/* Night #000f08 */
-/* Gunmetal #1c3738 */
-/* Davy'sGray #4d4847 */
-/* Mint Cream #f4fff8 */
-/* Cadet Gray #f4fff8 */
-/* #c97b84  #a85751  #7D2E68 #251351 #040926 */
-* {
-    font-family: "Baloo Bhaijaan 2", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: "Baloo Bhaijaan 2", sans-serif;
-    line-height: 1.6;
-    color: #f4fff8; /* Dark purplish gray text */
-    background-color: #251351;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
 }
 
-header {
-    background-color: #040926;
-    color: #a85751;
-    padding: 20px;
-    text-align: center;
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
 }
 
-section {
-    padding: 20px;
-    margin: 10px 0;
+.banner .content .title {
+    font-family: "Hallowed Grounds";
+    font-size: 6em;
 }
 
-h2 {
-    color: lab(35% 0.2 -0.2); /* Same purplish gray as body text */
-}
-
-a {
-    color: #7d2e68; /* Medium purple for links */
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #f4fff8;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #040926;
-    color: #a85751;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(banner.png);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    -webkit-mask-image: url(ink.png);
 }
