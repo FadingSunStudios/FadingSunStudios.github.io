@@ -25,5 +25,8 @@ body {
     background-size: cover;
     background-position: center;
     z-index: -1;
-    -webkit-mask-image: url(ink.png);
+    mask-image: url(ink2.gif);
+    -webkit-mask-image: url(ink2.gif);
+    mask-size: cover;
+    mask-position: center;
 }
