@@ -1,7 +1,10 @@
+:root {
+    color-scheme: light dark;
+}
 body {
     margin: 0;
-    background-color: #000;
-    color: #fff;
+    background-color: light-dark(#fff, #000);
+    color: light-dark(#000, #fff);
 }
 
 .banner {
@@ -26,7 +29,6 @@ body {
     background-position: center;
     z-index: -1;
     mask-image: url(ink2.gif), linear-gradient(black, transparent);
-
     -webkit-mask-image: url(ink2.gif);
     mask-size: cover;
     mask-position: center;
