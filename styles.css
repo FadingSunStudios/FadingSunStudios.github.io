@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    background-color: #fff;
-    color: #000;
+    background-color: #000;
+    color: #fff;
 }
 
 .banner {
@@ -21,11 +21,12 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url(banner.png);
+    background-image: url(Banner.jpeg);
     background-size: cover;
     background-position: center;
     z-index: -1;
-    mask-image: url(ink2.gif);
+    mask-image: url(ink2.gif), linear-gradient(black, transparent);
+
     -webkit-mask-image: url(ink2.gif);
     mask-size: cover;
     mask-position: center;
