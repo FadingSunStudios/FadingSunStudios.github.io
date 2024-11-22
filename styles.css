@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    background-color: #fff;
-    color: #000;
+    background-color: #000;
+    color: #fff;
 }
 
 .banner {
@@ -14,7 +14,7 @@ body {
 
 svg path {
     fill: transparent;
-    stroke: #000;
+    stroke: #fff;
     stroke-width: 0.2;
     stroke-dasharray: 50;
     stroke-dashoffset: 50;
@@ -28,7 +28,7 @@ svg path {
         fill: transparent;
     }
     100% {
-        fill: #000;
+        fill: #fff;
         stroke-dashoffset: 0;
     }
 }
@@ -40,8 +40,7 @@ svg path {
     background-size: cover;
     background-position: center;
     z-index: -1;
-    mask-image: url(ink2.gif);
-    -webkit-mask-image: url(ink2.gif);
+    mask-image: linear-gradient(black, transparent);
     mask-size: cover;
     mask-position: center;
 }
